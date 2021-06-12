@@ -3,7 +3,7 @@
     height: 100vh;
     width: 350px;
     background-color: white;
-    z-index: 2;
+    z-index: 1000;
     left: -350px;
     padding: 0 25px;
     transition: left 1s ease;

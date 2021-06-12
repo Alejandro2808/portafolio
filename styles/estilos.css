@@ -83,6 +83,20 @@ a{
     align-items: center;
 }
 
+.sobremi1{
+    padding-top: 35px;
+}
+
+.perfil1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfil{
+    height: 550px;
+    width: 450px;
+}
+
 #explicacionLogo{
     background-color: rgb(5, 5, 5);
     height: 700px;
@@ -183,6 +197,32 @@ a{
     background-color: #7F7878;
     height: 700px;
     width: 100%;
+}
+
+#estudiosyexperiencia{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #7F7878;
+    height: 700px;
+    width: 100%;
+    padding: 40px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.texto{
+    text-align: justify;
 }
 
 .video{
@@ -500,8 +540,15 @@ ul{
 	background-color: #ffffff;
 }
 
+
+@media (max-width: 700px){
+    #menuPrincipal{
+      display: none;
+    }
+}
+
 /*responsive*/
-@media(max-width: 767px){
+@media(max-width: 700px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
@@ -532,11 +579,5 @@ body{
     .contact-info ul,
     .contact-info p {
         text-align: left;
-    }
-}
-
-@media (max-width: 700px){
-    ul{
-      display: none;
     }
 }
